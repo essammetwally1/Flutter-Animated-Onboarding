@@ -63,27 +63,6 @@ class _HomePageState extends State<HomePage>
             description:
                 "Cats are domesticated yet independent animals known for their agility, sharp senses, and affectionate behavior. Their varied coat patterns, expressive eyes, and playful nature make them beloved pets worldwide.",
           ),
-          // makePage(
-          //   page: 2,
-          //   image: 'assets/images/2.avif',
-          //   title: 'Brown Fox',
-          //   description:
-          //       'Yosemite National Park is in California’s Sierra Nevada mountains. It’s famed for its giant, ancient sequoia trees, and for Tunnel View, the iconic vista of towering Bridalveil Fall and the granite cliffs of El Capitan and Half Dome.',
-          // ),
-          // makePage(
-          //   page: 3,
-          //   image: 'assets/images/3.avif',
-          //   title: 'Wild Deer',
-          //   description:
-          //       'The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean.',
-          // ),
-          // makePage(
-          //   page: 4,
-          //   image: 'assets/images/4.avif',
-          //   title: 'Cats',
-          //   description:
-          //       "Sedona is regularly described as one of America's most beautiful places. Nowhere else will you find a landscape as dramatically colorful.",
-          // ),
         ],
       ),
     );
