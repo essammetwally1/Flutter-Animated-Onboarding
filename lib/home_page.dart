@@ -36,29 +36,54 @@ class _HomePageState extends State<HomePage>
         controller: _pageController,
         children: <Widget>[
           makePage(
-              page: 1,
-              image: 'assets/images/four.jpg',
-              title: 'Cheetah',
-              description:
-                  "Savannah, with its Spanish moss, Southern accents and creepy graveyards, is a lot like Charleston, South Carolina. But this city about 100 miles to the south has an eccentric streak."),
+            page: 1,
+            image: 'assets/images/1.jpg',
+            title: 'Cheetah',
+            description:
+                "The cheetah is the fastest land animal, capable of reaching speeds up to 60-70 mph. Native to Africa and parts of Iran, it thrives in open grasslands and savannahs, where its incredible speed allows it to chase down prey with precision.",
+          ),
           makePage(
-              page: 2,
-              image: 'assets/images/2.avif',
-              title: 'Yosemite National Park',
-              description:
-                  'Yosemite National Park is in California’s Sierra Nevada mountains. It’s famed for its giant, ancient sequoia trees, and for Tunnel View, the iconic vista of towering Bridalveil Fall and the granite cliffs of El Capitan and Half Dome.'),
+            page: 2,
+            image: 'assets/images/2.avif',
+            title: 'Brown Fox',
+            description:
+                "The brown fox is a small to medium-sized, highly adaptable animal found in various habitats around the world. Known for its cunning nature and agility, the brown fox is often recognized by its reddish-brown fur, bushy tail, and sharp, pointed ears.",
+          ),
           makePage(
-              page: 3,
-              image: 'assets/images/3.avif',
-              title: 'Golden Gate Bridge',
-              description:
-                  'The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean.'),
+            page: 3,
+            image: 'assets/images/3.avif',
+            title: 'Wild Deer',
+            description:
+                "Wild deer are graceful herbivores commonly found in forests, grasslands, and wetlands. They are known for their agility and keen senses, helping them avoid predators. With antlers that are shed and regrown annually, deer are a symbol of natural beauty and resilience.",
+          ),
           makePage(
-              page: 4,
-              image: 'assets/images/5.avif',
-              title: 'Sedona',
-              description:
-                  "Sedona is regularly described as one of America's most beautiful places. Nowhere else will you find a landscape as dramatically colorful."),
+            page: 4,
+            image: 'assets/images/4.avif',
+            title: 'Cats',
+            description:
+                "Cats are domesticated yet independent animals known for their agility, sharp senses, and affectionate behavior. Their varied coat patterns, expressive eyes, and playful nature make them beloved pets worldwide.",
+          ),
+          // makePage(
+          //   page: 2,
+          //   image: 'assets/images/2.avif',
+          //   title: 'Brown Fox',
+          //   description:
+          //       'Yosemite National Park is in California’s Sierra Nevada mountains. It’s famed for its giant, ancient sequoia trees, and for Tunnel View, the iconic vista of towering Bridalveil Fall and the granite cliffs of El Capitan and Half Dome.',
+          // ),
+          // makePage(
+          //   page: 3,
+          //   image: 'assets/images/3.avif',
+          //   title: 'Wild Deer',
+          //   description:
+          //       'The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean.',
+          // ),
+          // makePage(
+          //   page: 4,
+          //   image: 'assets/images/4.avif',
+          //   title: 'Cats',
+          //   description:
+          //       "Sedona is regularly described as one of America's most beautiful places. Nowhere else will you find a landscape as dramatically colorful.",
+          // ),
         ],
       ),
     );
